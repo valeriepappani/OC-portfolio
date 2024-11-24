@@ -20,6 +20,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   
     // Inclure le header et le footer
-    includeHTML("menu", "/menu.html");
-    includeHTML("footer", "/footer.html");
+    includeHTML("menu", "menu.html");
+    includeHTML("footer", "footer.html");
   });

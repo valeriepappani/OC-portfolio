@@ -3,9 +3,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     const projectsContainer = document.querySelector('.last-projects');
     const projects = [
-        { img: "/images/onelaw-mockup-responsive.webp", link: "/References/onelaw.html", alt: "Onelaw" },
-        { img: "/images/kasa-apercu-global.webp", link: "/References/Kasa.html", alt: "Kasa" },
-        { img: "/images/dentiste-maquette-site.webp", link: "/References/dentiste.html", alt: "Cabinet dentaire" }
+        { img: "/images/onelaw-mockup-responsive.webp", link: "./References/onelaw.html", alt: "Onelaw" },
+        { img: "/images/kasa-apercu-global.webp", link: "./References/Kasa.html", alt: "Kasa" },
+        { img: "/images/dentiste-maquette-site.webp", link: "./References/dentiste.html", alt: "Cabinet dentaire" }
     ];
   
     projects.forEach(project => {
